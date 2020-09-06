@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(229, 229, 229)
+}
+.center {
+    width:1190px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix::before,
+.center::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
